@@ -64,7 +64,7 @@ K_TIMER_DEFINE(red_timer, flash_red, NULL);
 K_TIMER_DEFINE(green_timer, flash_green, NULL);
 K_TIMER_DEFINE(blue_timer, flash_blue, NULL);
 
-void mail(void)
+void mail(void * p1,void * p2,void * p3)
 {
 	struct k_mbox_msg recv_msg;
 	
