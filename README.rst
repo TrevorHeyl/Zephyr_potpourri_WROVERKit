@@ -52,6 +52,8 @@ To Build and run
 
 .. code-block:: console
 
+  >source ~/zephyrproject/zephyr/zephyr-env.sh
+  
   >west build -p -b esp_custom
    
   >west flash
