@@ -1,10 +1,17 @@
-ESP WROVER Standalone project template and custom board
+ESP WROVER Standalone project template and custom board with variety of kernel APIs feature exercised
 ###########
 
 Overview
 ********
 
 A simple sample that can be used off-tree. It includes a custom board called ESP_CUSTOM
+
+Demonstrates these kernel API features:
+   * Timers
+   * Mailbox
+   * Threads (comi\ile time and runtime creation
+   * Some GPIO
+
 
 Building and Running
 ********************
