@@ -1,7 +1,7 @@
-#include <zephyr/zephyr.h>
-#include <zephyr/sys/printk.h>
-#include <zephyr/device.h>
-#include <zephyr/drivers/gpio.h>
+#include <zephyr.h>
+#include <sys/printk.h>
+#include <device.h>
+#include <drivers/gpio.h>
 
 #define LED         DT_ALIAS(led0)
 #define RED_LED     DT_ALIAS(led1)
