@@ -12,6 +12,13 @@ Demonstrates these kernel API features:
    * Threads (compile time and runtime creation)
    * Some GPIO
 
+This example uses 4 LEDs, the colours of whch can be mappe din the app.overlay file. the defualt is:
+
+  * RED LED GPIO 22
+  * GREEN LED GPIO 21
+  * BLUE LED GPIO 23
+  * Generic LED GPIO 19
+
 
 Building and Running
 ********************
