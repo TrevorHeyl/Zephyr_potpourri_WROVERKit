@@ -21,14 +21,17 @@ This application can be built and executed as follows:
 First make sure the toolchain is installed and the toolchain env paths
 
 From inside zephyrproject/zephyr:
+
 .. code-block:: console
+
    >west update
    
    >west espressif update
    
    >west espressif install
    
-Then you must add toolchain variables into the environment
+Then you must add toolchain variables into the environment:
+
 .. code-block:: console
 
    >export ESPRESSIF_TOOLCHAIN_PATH=”/home/yourusername/.espressif/tools/zephyr”
@@ -41,12 +44,12 @@ To Build and run
 =============
 
 .. code-block:: console
+
+  >west build -p -b esp_custom
    
-   > west build -p -b esp_custom
+  >west flash
    
-   > west flash
-   
-   > west espressif monitor
+  >west espressif monitor
 
 
 
