@@ -25,7 +25,7 @@ Building and Running
 
 This application can be built and executed as follows:
 
-First make sure the toolchain is installed and the toolchain env paths
+First make sure the toolchain is installed
 
 From inside zephyrproject/zephyr:
 
