@@ -1,0 +1,40 @@
+#include <dt-bindings/gpio/gpio.h>
+/ {
+	leds {
+		compatible = "gpio-leds";
+
+
+		ledgen: led_generic {
+			gpios =  <&gpio0 19 GPIO_ACTIVE_HIGH>;
+			label = "Generic LED";
+		};
+		greenled: led_green {
+			gpios =  <&gpio0 21 GPIO_ACTIVE_HIGH>;
+			label = "Green - LED1";
+		};
+		redled: led_red {
+			gpios =  <&gpio0 22 GPIO_ACTIVE_HIGH>;
+			label = "Red - LED1";
+		};
+
+		blueled: led_blue {
+			gpios =  <&gpio0 23 GPIO_ACTIVE_HIGH>;
+			label = "Blue - LED1";
+		};
+	};
+	
+	aliases {
+		led0 = &ledgen;
+		led1 = &redled;
+		led2 = &greenled;
+		led3 = &blueled;
+	};
+
+	
+};
+
+
+
+       
+   
+
