@@ -1,4 +1,4 @@
-ESP WROVER Standalone project template and custom board with variety of kernel APIs feature exercised
+ESP32 WROVER Standalone project template and custom board with variety of kernel APIs exercised
 ###########
 
 Overview
